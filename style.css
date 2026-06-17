@@ -1,0 +1,175 @@
+*{
+  font-family: 'Hanken Grotesk', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  width: 736px;
+  display: flex;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px hsla(0, 0%, 0%, 0.15);
+  background-color: white;
+}
+
+.left{
+  width: 50%;
+  margin-right: -10px;
+  z-index: 2;
+  position: relative;
+  border-radius: 25px;
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+.circle{
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 15px 0;
+}
+
+.circle h1{
+  font-size: 70px;
+}
+
+.left h3{
+  color: hsl(241, 100%, 89%);
+  font-size: 21px;
+}
+
+.left h4{
+  color: hsl(221, 100%, 96%);
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.desc{
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+}
+
+.right{
+  width: 50%;
+  border-radius: 25px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.right h3{
+  padding-bottom: 20px;
+  color: hsl(224, 30%, 27%);
+}
+
+.sense{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 12px 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.sense img{
+  padding-right: 10px;
+}
+
+.icon-name{
+  font-weight: bold;
+}
+
+.sense-left{
+  display: flex;
+  align-items: center;
+}
+
+.sense-red{
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.sense-red .icon-name{
+  color: hsl(0, 100%, 67%);
+}
+
+.sense-yellow{
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.sense-yellow .icon-name{
+  color: hsl(39, 100%, 56%);
+}
+
+.sense-green{
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.sense-green .icon-name{
+  color: hsl(166, 100%, 37%);
+}
+
+.sense-blue{
+  background-color: hsla(234, 85%, 45%, 0.1);
+  margin-bottom: 40px;
+}
+
+.sense-blue .icon-name{
+  color: hsl(234, 85%, 45%);
+}
+
+.grade{
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.grade strong{
+  font-size: 20px;
+  color: hsl(224, 30%, 27%);
+}
+
+.hundred{
+  color: hsla(0, 0%, 0%, 0.5);
+  font-size: 16px;
+}
+
+.right button{
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.right button:hover{
+  cursor: pointer;
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
